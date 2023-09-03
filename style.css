@@ -143,3 +143,38 @@ p{
 .section-acknow{
     padding: 10px;
 }
+
+/***********Modal*************/
+.modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-color: rgb(0, 0, 0, 0.5);
+    overflow: auto;
+    transition: all 1s;
+    opacity: 0;
+}
+.show-modal{
+    opacity: 1;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.info-success{
+    background-color: var(--white);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+.img-success{
+    width: 100px;
+    height: 100px;
+    /* color: black; */
+}

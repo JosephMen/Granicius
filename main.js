@@ -18,8 +18,14 @@ const ressAdd = [
 
 ressAdd.forEach((input, index) => {
     $(input).change(function(){
-        $(mailAdd[index]).val($(this).val())
+        if(checkResAdd.checked){
+            $(mailAdd[index]).val($(this).val())
+        }
     })
+})
+
+$(".close-modal").click(function(){
+    $(".modal").removeClass("show-modal")
 })
 
 form.addEventListener('submit', (event) => {
@@ -43,7 +49,9 @@ form.addEventListener('submit', (event) => {
         })
 
     } else {
-        console.log('all right')
+        $('button[type="submit"]').click(function () { 
+            $(".modal").addClass("show-modal")
+         })
     }
 })
 
