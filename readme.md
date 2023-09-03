@@ -52,3 +52,6 @@
 - When the input check becomes inactive, the mailing inputs are cleared.
 - The cancel button takes over the clear form function.
 - When submit is given, it verifies the completeness of the fields with red those that are not filled in.
+
+## Comments
+I felt it was a simple test, I implemented jquery because it was part of the requirement but I could have done it with just native javascript
