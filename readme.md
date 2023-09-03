@@ -26,24 +26,24 @@
 
 ## 📝 Solution
 
-📸📸 Some Screenshots
+### 📸📸 Some Screenshots
 
-Main Page
+### Main Page
 ![Image site](/assets/screenshots.png)
 
-Responsive
+### Responsive
 ![Image site](/assets/screenshot2.png)
 
-Autopopulate when input is checked
+### Autopopulate when input is checked
 ![Image site](/assets/screenshot3.png)
 
-Missing values validation
+### Missing values validation
 ![Image site](/assets/screenshot4.png)
 
-Submitted modal message
+#### Submitted modal message
 ![Image site](/assets/screenshot5.png)
 
-Mobile
+#### Mobile
 ![Image site](/assets/screenshot.png)
 
 
