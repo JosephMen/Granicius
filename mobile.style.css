@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 900px)  {
+ 
+    .personal-info{
+        grid-template-columns: 1fr 1fr;
+    }
+    .filler{
+        display: none;
+    }
+    .span-check{
+        grid-column: 1 / span 2;
+    }
+
+}
+
+@media screen and (max-width: 520px)  {
+ 
+    .personal-info{
+        grid-template-columns: 1fr;
+    }
+    .filler{
+        display: none;
+    }
+    .span-check{
+        grid-column: 1 / span 1;
+    }
+}

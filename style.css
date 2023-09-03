@@ -1,0 +1,145 @@
+:root{
+    --max-width : 1020px;
+    --dark-blue: #00008B;
+    --white: #f7f7f7;
+    --gray: #eee;
+    --font-color: #808080
+}
+
+html, body {
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: var(--white);
+    color: var(--font-color);
+}
+
+
+/** Input style **/
+button{
+    border: none;
+    cursor: pointer;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    background-color: #303030;
+    color: var(--white);
+    border-radius: 2px;
+}
+input[type='text'],
+input[type='email']{
+    border: 1px solid #ccc;
+    padding: 0.8em 0.5em;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.3s all linear;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 4px var(--dark-blue);
+}
+input[type="checkbox"]:focus{
+    box-shadow: none;
+}
+.required-field::after{
+    content: "*";
+    color: red  ;
+}
+.submitted-form input:invalid{
+    box-shadow: 0px 0px 4px red;
+}
+
+
+.nav-content,
+.body-form{
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.group-entry{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.info-spam{
+    color: red;
+    font-size: 0.8rem;
+    display: none;
+}
+.spam-display{
+    display: block;
+}
+
+.info-error{
+    box-shadow: 0px 0px 4px red;
+}
+
+.span-check{
+    margin: 10px 0;
+    grid-column: 1 / span 3;
+    align-items:start;
+}
+
+.buttons{
+    text-align: center;
+}
+
+.body-form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/****************/
+
+
+h1{
+    font-size: 1rem;
+}
+p{
+    font-size: 0.85rem;
+}
+
+/***Header********/
+.nav-header{
+    background-color: var(--gray);
+    padding: 10px;
+}
+
+.nav-content{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 150px;
+    height: 50px;
+    margin-right: auto;
+}
+
+/*******************/
+
+
+/***** Sections *****/
+.section-header{
+    background-color: var(--dark-blue);
+    padding: 1em 1em;
+    color: var(--white);
+}
+
+
+.personal-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+.declaration{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+.section-acknow{
+    padding: 10px;
+}

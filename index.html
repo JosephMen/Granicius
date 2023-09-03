@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.style.css">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+    <title>Form</title>
+</head>
+<body>
+
+    <nav class="nav-header">
+        <div class="nav-content">
+            <a href="https://granicus.com/">
+                <img src="/assets/logo.svg" alt="granicus logo" class="logo">
+            </a>
+        </div>
+    </nav>
+    <form class="body-form" id="main-form" novalidate >
+        <div class="section-header">
+            Personal Information
+        </div>
+        <section class="personal-info">
+            <div class="group-entry">
+                <label for="first-name" class="required-field">First Name:</label>
+                <input  type="text" name="first-name" id="first-name" required>
+                <div class="info-spam">span info</div>
+            </div>
+
+            <div class="group-entry">
+                <label for="middle-initial" class="required-field">Middle Initial:</label>
+                <input type="text" name="middle-initial" id="middle-initial" required>
+                <div class="info-spam">span info</div>
+            </div>
+
+            <div class="group-entry">
+                <label for="last-name" class="required-field">Last Name:</label>
+                <input type="text" name="last-name" id="last-name" required>
+                <div class="info-spam">span info</div>
+            </div>
+
+            <div class="group-entry">
+                <label for="res-add" class="required-field">Residential Street Addres: </label>
+                <input type="text" name="res-add" id="res-add" required>
+                <div class="info-spam">span info</div>
+            </div>
+
+            <div class="group-entry">
+                <label for="res-add2" class="">Residential Street Addres 2: </label>
+                <input type="text" name="res-add2" id="res-add2">
+            </div>
+            <div class="filler"></div>
+
+
+            <div class="group-entry">
+                <label for="res-city" class="required-field">Residential City: </label>
+                <input type="text" name="res-city" id="res-city" required>
+                <div class="info-spam">span info</div>
+            </div>
+
+            <div class="group-entry">
+                <label for="res-zip" class="required-field">Residential Zip: </label>
+                <input type="text" name="res-zip" id="res-zip" required>
+                <div class="info-spam">span info</div>
+            </div>
+            <div class="filler"></div>
+            
+
+            <div class="group-entry span-check">
+                <label for="check-resAdd" class="">Is your Mailing Address the same as your Residential Address?</label>
+                <div>
+                    <input type="checkbox" id="check-resAdd"> Yes
+                </div>
+            </div>
+
+
+            <div class="group-entry">
+                <label for="mail-add" class="required-field">Mailing Street Addres: </label>
+                <input type="text" name="mail-add" id="mail-add" required>
+                <div class="info-spam">span info</div>
+            </div>
+
+            <div class="group-entry">
+                <label for="mail-add2" class="">Mailing Street Addres 2: </label>
+                <input type="text" name="mail-add2" id="mail-add2">
+            </div>
+            <div class="filler"></div>
+
+
+            <div class="group-entry">
+                <label for="mail-city" class="required-field">Mailing City: </label>
+                <input type="text" name="mail-city" id="mail-city" required>
+                <div class="info-spam">span info</div>
+            </div>
+
+            <div class="group-entry">
+                <label for="mail-zip" class="required-field">Mailing Zip: </label>
+                <input type="text" name="mail-zip" id="mail-zip" required>
+                <div class="info-spam">span info</div>
+            </div>
+            <div class="filler"></div>
+
+
+            <div class="group-entry">
+                <label for="primary-phone" class="required-field">Primary Phone Number: </label>
+                <input type="text" name="primary-phone" id="primary-phone" required>
+                <div class="info-spam">span info</div>
+            </div>
+
+            <div class="group-entry">
+                <label for="sec-phone" class="">Secondary Phone Number: </label>
+                <input type="text" name="sec-phone" id="sec-phone">
+            </div>
+            <div class="filler"></div>
+
+
+            <div class="group-entry">
+                <label for="fax-num" class="">Fax Number: </label>
+                <input type="text" name="fax-num" id="fax-num">
+            </div>
+
+            <div class="group-entry">
+                <label for="email" class="required-field">E-mail Address: </label>
+                <input type="email" name="email" id="email" required>
+                <div class="info-spam">span info</div>
+            </div>
+            <div class="filler"></div>
+        </section>
+        
+        <div class="section-header">
+            Acknowledgement
+        </div>
+        <section class="section-acknow">
+            <h1>Please read the following statement carefully before submitting your application</h1>
+            <p class="declaration">
+                I certify that all statement that i have made in this application and any other supplementary materials are
+                true and correct. I hereby authorize the city of temple to investigate the accuracy of this information from any person
+                or organization, and i release the city of temple and all persons and organization from all claims and liabilities arising
+                from such investigation or the supplying of information for such investigation. I acknowledge that any false statement
+                or misrepresentation on this application or supplementary materials will be cause for refusal of appointement or inmediate
+                dismissal at any time during the period of my appointement  
+            </p>
+        </section>
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
+        </div>
+    </form>
+    <footer>
+        <p style="text-align: center; background-color: var(--gray); padding: 10px 0;">
+            Developer: Frander Joseph Mena Sandoval
+        </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js">
+        
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
