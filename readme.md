@@ -1,6 +1,6 @@
 # Basic Form Test
 
-## Developer: Frander Mena Sandoval
+### Developer: Frander Mena Sandoval
 
 
 ## Test especifications
@@ -19,7 +19,12 @@
 -	When cancel button is clicked, all the fields should become blank. 
 
 
-## Solution
+## Deployed Site
+
+🌐 [Go to the site](https://granicus-test-frander.netlify.app/)
+
+
+## 📝 Solution
 
 📸📸 Some Screenshots
 
@@ -38,8 +43,11 @@ Missing values validation
 Submitted modal message
 ![Image site](/assets/screenshot5.png)
 
+Mobile
+![Image site](/assets/screenshot.png)
 
-## Features:
+
+## ⚙ Features:
 - When the input check is active, the mailing inputs are auto-filled when the address inputs change.
 - When the input check becomes inactive, the mailing inputs are cleared.
 - The cancel button takes over the clear form function.
